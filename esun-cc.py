@@ -30,7 +30,7 @@ def print_beancount(rows: list[Transaction]):
 
 def print_beancount_row(transaction: Transaction):
     print(f"{transaction.date.strftime("%Y-%m-%d")} * \"{transaction.payee}\"")
-    print(f"\tLiabilities:Checking:ESUN -{transaction.amount} NTD")
+    print(f"\tLiabilities:CreditCard:ESUN -{transaction.amount} NTD")
     print(f"\tExpenses:Uncategorised {transaction.amount} NTD")
     print()
 
