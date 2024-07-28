@@ -1,0 +1,62 @@
+[
+  {
+    "pattern": "ＩＦＧ遠雄.*",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "IFG Mall"
+  },
+  {
+    "pattern": "ｃａｍａ汐止復興店",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "Cama Coffee"
+  },
+  {
+    "pattern": "全家便利商店.*",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "FamilyMart"
+  },
+  {
+    "pattern": "統一超商.*",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "7-11"
+  },
+  {
+    "pattern": ".*秀泰廣場.*",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "Showtime Mall"
+  },
+  {
+    "pattern": "優食－.*",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "Uber Eats"
+  },
+  {
+    "pattern": "家樂福.*",
+    "new_category": "Expenses:Groceries",
+    "new_payee": "Carrefour"
+  },
+  {
+    "pattern": "新光三越百貨",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "Shin Kong Mitsukoshi"
+  },
+  {
+    "pattern": "ＬＯＵＩＳＡ　ＣＯＦＦＥＥ",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "Louisa Coffee"
+  },
+  {
+    "pattern": "高鐵",
+    "new_category": "Expenses:Transport",
+    "new_payee": "HSR"    
+  },
+  {
+    "pattern": ".*Ｒａｍｂｌｅ.*",
+    "new_category": "Expenses:Eating-Out",
+    "new_payee": "Ramble Cafe"
+  },
+  {
+    "pattern": "優步－.*",
+    "new_category": "Expenses:Transport",
+    "new_payee": "Uber"
+  }
+]
