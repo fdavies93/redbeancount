@@ -74,7 +74,11 @@ def main():
     trs = table.findAll("tr")
     transactions = []
     for tr in trs[1:]:
-        transactions.append(parse_tr(tr))
+        # just skip the subtotal stuff at the end
+        try:
+            transactions.append(parse_tr(tr))
+        except:
+            pass
 
     if parsed.map != None:
         with open(parsed.map) as f:
