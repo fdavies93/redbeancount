@@ -77,7 +77,7 @@ def parse_csv(filename: str) -> list[Transaction]:
 
 def render_beancount_transaction(transaction: Transaction):
     print(f"{transaction.transaction_date.strftime("%Y-%m-%d")} * \"{transaction.note}\"")
-    print(f"\tAssets:Checking:ESUN {transaction.amount} NTD")
+    print(f"\tAssets:Checking:Cathay {transaction.amount} NTD")
     print(f"\t{transaction.category} {-transaction.amount} NTD")
     print()
 
